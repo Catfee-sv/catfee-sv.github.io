@@ -1,0 +1,293 @@
+/* configuracion inicial pagina */
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Abel', sans-serif;
+}
+/* responsive */
+@media screen and (max-width:800px){
+  .pie-pagina .grupo1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+  }
+  video {
+    width: 350px;
+    height: 260px;
+  }
+}
+/* configuracion de cuerpo */
+body {
+  background-image: url(/img/fondo2.png);
+  background-repeat: r;
+  background-size: 1365px;
+  height: auto;
+}
+/*Edicion de las promociones*/
+.caja-promociones {
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 60px 0px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  border: 0.5 solid#000;
+  border-radius: 20px;
+}
+.caja-imagenes {
+  min-width: 200px;
+  flex: 350px;
+  
+}
+.caja-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.caja-promociones img:hover{
+  border: 2px solid #000;
+  transform: scale(1.8s);
+  transition: 0.2s ease-in-out;
+  
+}
+.caja-promociones img:hover{
+  opacity: 1;
+}
+/*Edicion de menu */
+.navbar-toggler-icon {
+  background-color: #36526F;
+  border-radius: 10px;
+}
+.navbar navbar-expand-lg navbar-light bg-light {
+  margin-top: 0;
+}
+.navbar-brand img {
+  width: 50px;
+}
+.container-fluid {
+  font-size: 30px;
+  background-color: #283c51;
+}
+#navbarSupportedContent a  {
+  color: white;
+}
+.container-fluid a:hover{
+  background-color: #a7cca7;
+} 
+/* titulos*/
+.titulos1 {
+  margin-bottom: 20px;
+  font-size: 32px;
+  margin-top: 0px;
+  padding: 1px;
+  text-align: center;
+  font-weight: 600;
+}
+/* nosotros y cajas */
+.caja1 {
+  padding: 1px;
+}
+.mision_vision h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 20px;
+  padding: 0px;
+}
+.mision_vision p {
+  font-size: 24px;
+  margin: 20px;
+  padding: 0px;
+}
+.valores {
+  background-color: #283c51;
+  border: 0px solid #000;
+  border-radius: 5px;
+  width: 320px;
+  height: 230px;
+  text-align: left;
+  border-radius: 20px;
+}
+.valores h2 {
+  font-size: 28px;
+  margin: 22px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  margin: 5px;
+}
+.valores p {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  margin: 8px;
+}
+.valores img {
+  max-width: 100%;
+  height: auto;
+  width: 100px;
+  height: 99px;
+  object-fit: initial;
+  margin: 8px;
+  display: block;
+  margin: auto;
+}
+.historia {
+  margin: 20px;
+  padding: 20px;
+}
+.historia p {
+  font-size: 24px;
+  text-align: left;
+  margin: 20px;
+  margin-top: 0px;
+  padding: 0px;
+}
+/* footer */
+.pie-pagina{
+  width: 100%;
+  background-color: #283c51;
+}
+.pie-pagina .grupo1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+
+.pie-pagina .grupo1 .box h2{
+  color: white;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.pie-pagina .grupo1 .box p{
+  margin-left: 5px;
+  color: white;
+  margin-bottom: 10px;
+}
+.pie-pagina .grupo1 .red-social a {
+  margin-left: 5px;
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+}
+.pie-pagina .grupo2 {
+  background-color: #1e2a36;
+  padding: 15px 10px;
+  text-align: center;
+  color: white;
+}
+.pie-pagina .grupo2 small {
+  font-size: 15px;
+}
+.red-social img{
+  height: 30px;
+  width: 30px;
+}
+.box a {
+  margin-left: 5px;
+  text-decoration: none;
+  color: white;
+}
+/* contacto */
+.contactos1 {
+  font-size: 24px;
+  margin: 20px;
+  padding: 0px;
+}
+.redes-sociales {
+  text-align: left;
+  margin: 20px;
+}
+.redes img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 55px;
+  height: 55px;
+  align-items: center;
+}
+.redes-sociales a {
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+}
+.redes-sociales img {
+  max-width: 100%;
+  height: auto;
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+}
+.horarios_contacto {
+  font-size: 24px;
+  margin: 20px;
+  padding: 0px;
+}
+.redes-sociales {
+  font-size: 24px;
+  margin: 20px;
+  padding: 0px;
+}
+/* sucursales */
+.mapa {
+  justify-content: center;
+  margin: 30px;
+  display: flex;
+}
+/* parte del index */
+.caja_ingredientes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  gap: 10px;
+}
+/* caja de ingredientes */
+.Ingredientes {
+  margin: auto;
+  background-color: #283c51;
+  border: 0px solid #000;
+  width: 294px;
+  height: 190px;
+  border-radius: 20px;
+}
+.Ingredientes h2 {
+  font-size: 30px;
+  margin: 2px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  margin: 5px;
+}
+.Ingredientes img {
+  max-width: 100%;
+  height: auto;
+  width: 130px;
+  height: 129px;
+  object-fit: initial;
+  margin: 8px;
+  display: block;
+  margin: auto;
+}
+/* cajas de imgs */
+.caja_valores {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  gap: 10px;
+}
+/* video */
+video {
+  margin: 0 auto 20px;
+ display: block;
+}
