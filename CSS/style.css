@@ -17,6 +17,12 @@
     height: 260px;
   }
 }
+@media screen and (max-width:320px){
+  video {
+    width: 300px;
+    height: 210px;
+  }
+}
 /* configuracion de cuerpo */
 body {
   background-image: url(/img/fondo2.png);
@@ -51,16 +57,11 @@ body {
   border: 2px solid #000;
   transform: scale(1.8s);
   transition: 0.2s ease-in-out;
-  
 }
 .caja-promociones img:hover{
   opacity: 1;
 }
 /*Edicion de menu */
-.navbar-toggler-icon {
-  background-color: #36526F;
-  border-radius: 10px;
-}
 .navbar navbar-expand-lg navbar-light bg-light {
   margin-top: 0;
 }
@@ -285,9 +286,4 @@ body {
   justify-content: center;
   align-content: flex-start;
   gap: 10px;
-}
-/* video */
-video {
-  margin: 0 auto 20px;
- display: block;
 }
